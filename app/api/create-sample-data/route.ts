@@ -15,7 +15,7 @@ export async function POST(request: NextRequest) {
       const companyEmail = `${jobData.company_name.toLowerCase().replace(/\s+/g, '')}@example.com`;
       
       // Check if company user exists
-      let { data: existingUser } = await supabase
+      const { data: existingUser } = await supabase
         .from('users')
         .select('id')
         .eq('email', companyEmail)

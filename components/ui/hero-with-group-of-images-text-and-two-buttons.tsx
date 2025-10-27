@@ -20,7 +20,7 @@ function Hero() {
                 </span>
               </h1>
               <p className="text-xl leading-relaxed tracking-tight text-gray-600 max-w-md text-left">
-                A Government of India initiative connecting talented students with Prime Minister's 
+                A Government of India initiative connecting talented students with Prime Minister&apos;s 
                 internship opportunities. Our AI-powered platform analyzes your skills and matches 
                 you with prestigious government and private sector organizations across India.
               </p>
@@ -35,7 +35,7 @@ function Hero() {
                 </div>
                 <p className="text-sm text-gray-600">
                   Empowering youth through skill development and employment opportunities 
-                  under the PM's vision for a self-reliant India (Atmanirbhar Bharat).
+                  under the PM&apos;s vision for a self-reliant India (Atmanirbhar Bharat).
                 </p>
               </div>
             </div>
@@ -213,7 +213,7 @@ function Hero() {
                   </div>
                 </div>
               </div>
-              <div className="text-xs text-gray-500 mt-2">Join India's largest talent network</div>
+              <div className="text-xs text-gray-500 mt-2">Join India&apos;s largest talent network</div>
             </div>
           </div>
         </div>

@@ -97,7 +97,7 @@ export async function GET(request: NextRequest) {
 
     // Get company information for jobs
     const companyIds = [...new Set(allJobs.map(job => job.company_id).filter(Boolean))];
-    let companiesMap = new Map();
+    const companiesMap = new Map();
     
     if (companyIds.length > 0) {
       const { data: companies } = await supabase
